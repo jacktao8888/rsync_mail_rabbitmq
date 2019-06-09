@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: atom
  * Date: 2018/4/24
- * Time: ÏÂÎç7:15
+ * Time: ÃÃ‚ÃÃ§7:15
  */
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -23,7 +23,7 @@ class Mail {
         $this->mail->Username = '';
         $this->mail->Password = '';
         $this->mail->SMTPSecure = 'ssl';
-        $this->mail->Port = 465;
+        $this->mail->Port = 456;
         $this->mail->SMTPOptions = array(
             'ssl' => array(
                 'verify_peer' => false,
