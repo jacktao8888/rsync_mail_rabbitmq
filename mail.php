@@ -18,7 +18,7 @@ class Mail {
 
         $this->mail->SMTPDebug = 3;
         $this->mail->isSMTP();
-        $this->mail->Host = 'smtp.dotcunited.com';
+        $this->mail->Host = 'smtp.xxx.com';
         $this->mail->SMTPAuth = true;//550 relay not permitted https://hetzner.co.za/help-centre/email/enable-smtp/
         $this->mail->Username = '';
         $this->mail->Password = '';
